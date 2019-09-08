@@ -1,2 +1,2 @@
 # Gratitude
-A mobile application for grateful people
+A mobile application for grateful people.
