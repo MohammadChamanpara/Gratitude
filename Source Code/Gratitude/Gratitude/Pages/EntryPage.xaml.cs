@@ -19,7 +19,6 @@ namespace Gratitude
             item.Date = DateTime.UtcNow;
             await App.Database.SaveGratitudesAsync(item);
             await Navigation.PopAsync();
-            CrossLocalNotifications.Current.Show("Gratitude", "my notification");
         }
 
         async void OnDeleteButtonClicked(object sender, EventArgs e)
