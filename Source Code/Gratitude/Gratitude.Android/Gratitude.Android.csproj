@@ -48,7 +48,8 @@
     <BundleAssemblies>false</BundleAssemblies>
     <MandroidI18n />
     <AndroidSupportedAbis>armeabi-v7a;x86</AndroidSupportedAbis>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <AndroidLinkTool>proguard</AndroidLinkTool>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
